@@ -87,8 +87,7 @@ console.log("Async End");
 // CALLBACKS
 // ==================================================
 
-// Callback = function passed as an argument
-// executed after an async operation completes
+// Callback = function passed as an argument executed after an async operation completes
 
 function fetchData(callback) {
     setTimeout(() => {
@@ -262,10 +261,8 @@ handleData();
 // CONCLUSION
 // ==================================================
 
-// Asynchronous JavaScript is the backbone
-// of backend development.
-// Mastering async flow is mandatory
-// for Express, MongoDB, APIs, and microservices.
+// Asynchronous JavaScript is the backbone of backend development.
+// Mastering async flow is mandatory for Express, MongoDB, APIs, and microservices.
 
 
 // ==================================================
