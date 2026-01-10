@@ -87,7 +87,7 @@ console.log("Async End");
 // CALLBACKS
 // ==================================================
 
-// Callback = function passed as an argument executed after an async operation completes
+// A callback is a function passed as an argument and executed later by another function
 
 function fetchData(callback) {
     setTimeout(() => {
