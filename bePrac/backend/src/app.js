@@ -1,4 +1,4 @@
-import express from 'express';
+import express, { urlencoded } from 'express';
 const app = express();
 
 import logger from './middlewares/logger.js';
@@ -7,6 +7,7 @@ import taskRouter from './routes/task.routes.js'
 import errorHandler from './middlewares/errorHandler.js'
 
 app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 app.use(logger);
 
 app.use("/api/v1/users", userRouter);
